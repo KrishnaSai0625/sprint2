@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*.container {
+    min-width: 30px;
+    max-height: 150px;
+}*/
+
+.jumbotron {
+    color:black;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+li {
+    font-weight: bolder;
+    color:aliceblue;
+}
+
+.jumbotron li {
+    font-weight: bolder;
+    color: black;
+    font-size: 28px;
+    opacity: 100%;
+    text-shadow: 5px 5px 10px cornsilk;
+}
+
+
+.carousel {
+    align-content: center;
+    justify-items: center;
+    width: 1200px;
+    height: fit-content;
+    transition: 1s;
+    transition-delay: 900ms;
+    transition-duration: 1.5s;
+}
+
+
+p {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(29, 3, 52);
+}
+
+
+.col {
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    align-items: center;
+}
+
+/*.nav-brand {
+    font-weight: bolder;
+    background-color: rgb(51, 53, 53);
+    color: white;
+}*/
+
+.article {
+    width: 700px;
+}
+
+/*.col-6 {
+    display: grip;
+    align-items: center;
+    width: auto;
+    height: auto;
+}*/
+
+/*.box {
+    background-color: rgba(227, 133, 19, 0.448);
+} */
+
+.collapse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-brand {
+    background-color: darksalmon;
+    color: sienna;
+}
+
+.card-text {
+    color: black;
+    background-color: white;
+}
+
+.jumbotron .container {
+    align-items: center;
+    background-image: url(Monster-0.webp);
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 0em;
+    padding-bottom: 10em;
+}
